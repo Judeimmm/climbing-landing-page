@@ -1,0 +1,23 @@
+body {
+   font-family:'Roboto', sans-serif;
+   min-height: 100vh;
+   border: 2px solid red;
+   display: flex;
+   flex-direction: column;
+}
+
+ul,
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header > ul {
+    display: flex;
+    gap: 15px;
+}
+
