@@ -4,12 +4,14 @@ body {
    border: 2px solid red;
    display: flex;
    flex-direction: column;
+   margin: 0px;
 }
 
 ul,
 a{
     text-decoration: none;
     list-style-type: none;
+    color: black;
 }
 
 .header {
@@ -21,3 +23,27 @@ a{
     gap: 15px;
 }
 
+.header,
+.first-body{
+    background-color: rgb(178, 204, 226);
+}
+
+.first-body {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+    gap: 20px;
+}
+
+.front-image {
+    align-self: center;
+    width: 180px;
+}
+
+
+.container {
+    flex: 0 1 200px;
+    flex-wrap: nowrap;
+    min-width: 200px;
+}
