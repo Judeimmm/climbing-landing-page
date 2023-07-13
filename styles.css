@@ -32,6 +32,7 @@ a{
     display: flex;
     justify-content: center;
     padding: 100px;
+    flex-wrap: wrap;
 
     gap: 20px;
 }
@@ -44,6 +45,33 @@ a{
 
 .container {
     flex: 0 1 200px;
-    flex-wrap: nowrap;
     min-width: 200px;
+}
+
+.instagram {
+    width: 50px;
+}
+
+.img > img {
+    width: 300px;
+    border-radius: 50px;
+    border: 4px solid black;
+}
+
+.fourimages {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img {
+    text-align: center;    
+}
+
+.second-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
