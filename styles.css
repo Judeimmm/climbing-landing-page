@@ -18,6 +18,11 @@ a{
     display: flex;
     justify-content: space-between;
 }
+
+.logo {
+    padding-left: 10px;
+}
+
 .header > ul {
     display: flex;
     gap: 15px;
