@@ -1,7 +1,7 @@
 body {
    font-family:'Roboto', sans-serif;
    min-height: 100vh;
-   border: 2px solid red;
+
    display: flex;
    flex-direction: column;
    margin: 0px;
@@ -79,4 +79,39 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote{
+    text-align: center;
+    margin: 40px;
+}
+
+.quote > h3,
+.quote > p{
+    margin: 0px;
+    padding: 0%;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+    padding: 50px;
+    background-color: aliceblue;
+}
+.ad.button {
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ad.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: lightgrey;
+    padding-left: 10px;
 }
